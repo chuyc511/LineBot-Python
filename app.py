@@ -23,6 +23,8 @@ line_bot_api = LineBotApi('pb57u0/zE4s7AiY6dZGmaX++jErYM0uFwRDPX3h7DdHAaznUAWHJS
 # Channel Secret
 handler = WebhookHandler('c0b34c011fab3b43a8bd24e39e4e0e07')
 
+# Test Github OnlineEditor
+
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
 def callback():
